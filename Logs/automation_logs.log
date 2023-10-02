@@ -1,0 +1,18 @@
+2023-09-06 20:42:39,851 : INFO : Test_001_homepage : test_homepage_visibility : 16 : time          lvl         class name         method           ln no       log
+2023-09-06 20:42:39,852 : INFO : Test_001_homepage : test_homepage_visibility : 18 : ***   start dirver   ***
+2023-09-06 20:42:42,861 : INFO : Test_001_homepage : test_homepage_visibility : 22 : ***   OPEN url    ***
+2023-09-06 20:42:51,117 : INFO : Test_001_homepage : test_homepage_visibility : 28 : ***   TITLE IS MATCHED   ***
+2023-09-06 20:43:05,450 : INFO : Test_001_homepage : test_signup_login : 42 : ***   successfull  ***
+2023-09-06 20:43:05,488 : INFO : Test_001_homepage : test_signup_login : 47 : ***   New User Signup! is visible   ***
+2023-09-17 20:58:30,079 : INFO : Test_001_homepage : test_homepage_visibility : 17 : ***   start dirver   ***
+2023-09-17 20:58:33,186 : INFO : Test_001_homepage : test_homepage_visibility : 21 : ***   OPEN url    ***
+2023-09-17 20:58:41,654 : INFO : Test_001_homepage : test_homepage_visibility : 27 : ***   TITLE IS MATCHED   ***
+2023-09-30 20:08:58,224 : INFO : Test_001_homepage : test_homepage_visibility : 17 : ***   start dirver   ***
+2023-09-30 20:09:01,270 : INFO : Test_001_homepage : test_homepage_visibility : 21 : ***   OPEN url    ***
+2023-09-30 20:09:10,054 : INFO : Test_001_homepage : test_homepage_visibility : 27 : ***   TITLE IS MATCHED   ***
+2023-09-30 20:09:34,128 : INFO : Test_001_homepage : test_signup_login : 41 : ***   successfull  ***
+2023-09-30 20:09:34,157 : INFO : Test_001_homepage : test_signup_login : 46 : ***   New User Signup! is visible   ***
+2023-09-30 22:31:28,874 : INFO : Test_001_homepage : test_signup_login : 41 : ***   successfull  ***
+2023-09-30 22:31:28,931 : INFO : Test_001_homepage : test_signup_login : 46 : ***   New User Signup! is visible   ***
+2023-09-30 22:35:34,746 : INFO : Test_001_homepage : test_signup_login : 41 : ***   successfull  ***
+2023-09-30 22:35:34,770 : INFO : Test_001_homepage : test_signup_login : 46 : ***   New User Signup! is visible   ***
