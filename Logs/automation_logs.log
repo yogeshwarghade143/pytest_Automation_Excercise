@@ -9,3 +9,16 @@
 2024-01-21 13:09:32,626 : INFO : Test_001_homepage : test_signup_login : 55 : *** name entered  ***
 2024-01-21 13:09:32,694 : INFO : Test_001_homepage : test_signup_login : 58 : *** email entered  ***
 2024-01-21 13:09:32,694 : INFO : Test_001_homepage : test_signup_login : 60 : *** clicked sign up button  ***
+2024-01-26 20:25:40,597 : INFO : Test_login_logOut : test_logIn : 14 : setup driver
+2024-01-26 20:25:53,073 : INFO : Test_login_logOut : test_logIn : 17 : ** clicked url **
+2024-01-26 20:26:41,729 : INFO : Test_login_logOut : test_logIn : 14 : setup driver
+2024-01-26 20:26:53,879 : INFO : Test_login_logOut : test_logIn : 17 : ** clicked url **
+2024-01-26 20:28:47,636 : INFO : Test_login_logOut : test_logIn : 14 : setup driver
+2024-01-26 20:28:53,796 : INFO : Test_login_logOut : test_logIn : 17 : ** clicked url **
+2024-01-26 20:28:53,802 : INFO : Test_login_logOut : test_logIn : 19 : ** print title **
+2024-01-26 20:28:53,803 : INFO : Test_login_logOut : test_logIn : 21 : ** object of login created **
+2024-01-26 20:28:55,019 : INFO : Test_login_logOut : test_logIn : 23 : ** signUp/login clicked **
+2024-01-26 20:28:55,019 : INFO : Test_login_logOut : test_logIn : 25 : ** object for logIN and logOut created **
+2024-01-26 20:28:55,135 : INFO : Test_login_logOut : test_logIn : 27 : ** enter username **
+2024-01-26 20:28:55,262 : INFO : Test_login_logOut : test_logIn : 29 : ** enter password **
+2024-01-26 20:29:03,697 : INFO : Test_login_logOut : test_logIn : 36 : ** test log is success **

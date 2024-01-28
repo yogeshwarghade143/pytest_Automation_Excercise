@@ -1,12 +1,10 @@
-# updated file
-
 import pytest                                             #there is no need to import pytest since we are not using any pytest methods in scripts like fixture markers etc.
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 # from Utilities.readProperties import Readconfig           #not used yet
 from PageObjects.signup_login import login
-from PageObjects.SIgnUp_page import SignUp
+from PageObjects.ac_Info import SignUp
 from Utilities.logGenerator import loggen
 import time
 
@@ -21,11 +19,11 @@ class Test_001_homepage:
         time.sleep(3)
 
         self.logger.info("***   OPEN url    ***")
-        self.driver.get("https://www.automationexercise.com/")     #always give proper url try to copy it from browser itself sometimes it shows error
+        self.driver.get("https://www.automationexercise.com/")
         time.sleep(3)
         act_title=self.driver.title
 
-        if act_title == "Automation Exercise":                     #always check for '==' sign or code may fail
+        if act_title == "Automation Exercise":
             self.logger.info("***   TITLE IS MATCHED   ***")
             assert True
         else:
@@ -37,9 +35,9 @@ class Test_001_homepage:
     def test_signup_login(self,setup):
         self.driver = setup
         self.driver.get("https://www.automationexercise.com/")
-        self.signUP = SignUp(self.driver)                                #object signUp
-        self.lgn = login(self.driver)                                    #object created for class login provider driver init
-        self.lgn.click_signup_login()                                    #always copy method name from pageobject otherwise it gives error
+        self.signUP = SignUp(self.driver)
+        self.lgn = login(self.driver)
+        self.lgn.click_signup_login()                                    
         time.sleep(3)
         self.logger.info("***   successfull  ***")
         signup_user = self.driver.find_element(By.XPATH, '//*[@id="form"]/div/div/div[3]/div/h2').text
@@ -68,6 +66,8 @@ class Test_001_homepage:
         self.signUP.dateDrpdwn("14")
         self.signUP.monthDrpdwn("10")
         self.signUP.yearDrpdwn("1995")
+
+        self.driver.quit()
 
 
 

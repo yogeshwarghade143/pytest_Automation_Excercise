@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 
 from Utilities.readProperties import Readconfig           #not used yet
 from PageObjects.signup_login import login
-from PageObjects.SIgnUp_page import SignUp
+from PageObjects.ac_Info import SignUp
 from Utilities.logGenerator import loggen
 import time
 
@@ -57,7 +57,7 @@ class Test_002_ENTER_AC_INFO():
         self.signUP.createAccount()
 
         time.sleep(5)
-
+        self.driver.quit()
 
 
 
